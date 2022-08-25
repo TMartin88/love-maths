@@ -84,6 +84,8 @@ body {
     padding: 25px;
 }
 
+/* --------- Buttons */
+
 .btn {
     width: 220px;
     height: 60px;
@@ -109,7 +111,7 @@ body {
     transition: all 0.5s;
 }
 
-.btn--big::after {
+.btn--big::after{
     content: attr(data-type);
     font-size: 1rem;
     color: #445361;
